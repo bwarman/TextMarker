@@ -47,8 +47,9 @@ var LayerSettings = TextMarker.add("panel", undefined, undefined, {name: "LayerS
     LayerSettings.spacing = 10; 
     LayerSettings.margins = 10; 
 
-var timeOffset = LayerSettings.add('edittext {properties: {name: "timeOffset"}}'); 
-    timeOffset.text = "10"; 
+var timeOffset = LayerSettings.add('edittext {justify: "right", properties: {name: "timeOffset"}}'); 
+    timeOffset.text = "0"; 
+    timeOffset.preferredSize.width = 45; 
 
 var statictext2 = LayerSettings.add("statictext", undefined, undefined, {name: "statictext2"}); 
     statictext2.text = "frames"; 
