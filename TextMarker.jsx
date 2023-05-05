@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 var panelGlobal = this;
 // TEXTMARKER 
-// ==========
+// ===========
 var TextMarker = (panelGlobal instanceof Panel) ? panelGlobal : new Window("palette"); 
     if ( !(panelGlobal instanceof Panel) ) TextMarker.text = "Text Marker"; 
     TextMarker.orientation = "column"; 
